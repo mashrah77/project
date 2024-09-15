@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hwb(0 30% 69% / 0.855);
+  color: #fff;
+  font-family: serif;
+}
+.crud {
+  width: 80%;
+  margin: auto;
+}
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px;
+}
+input {
+  width: 100%;
+  height: 45px;
+  outline: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.811);
+  margin: 5px 0;
+  border-radius: 4px;
+  padding: 4px;
+  color: #fff;
+}
+input:focus {
+  background: black;
+  transform: scale(1.1);
+}
+.Price input {
+  width: 20%;
+}
+#Total {
+  background: #bc0606;
+  padding: 12px 2px;
+  border-radius: 4px;
+}
+#Total::before {
+  content: " المجموع Total:";
+}
+button {
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+  background: rgb(3, 50, 118);
+  color: #ffff;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+button:hover {
+  background: rgb(26, 57, 150);
+  letter-spacing: 1px;
+}
+.btnserh {
+  display: flex;
+  justify-content: space-between;
+}
+#deleteAll {
+  margin: 18px 0;
+}
+.btnserh button {
+  width: 45%;
+}
+table {
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+}
+table th {
+  text-transform: uppercase;
+}
+th,
+td {
+  padding: 6px;
+}
